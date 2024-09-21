@@ -1,0 +1,204 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: #fff !important;
+    /*box-shadow: inset 0px -3px 18px -4px black;*/
+    border-bottom: 5px solid black;
+}
+#navbarNav ul {
+    width: 850px;
+}
+#navbarNav li {
+    margin: 0 2px;
+}
+.modal a{
+        color: black;
+}
+
+.home h2{
+    font-size: 30px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+    .navbar-brand i {
+        margin-right: 0.5rem;
+        font-size: 25px;
+    }
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.parallax {
+    height: 100vh;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.parallax-mini {
+    height: 60vh;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+    .parallax .content {
+        position: absolute;
+        bottom: 20%;
+        left: 5%;
+        right: 5%;
+    }
+
+.content-section {
+    padding: 4rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+    .content-section.bg-light {
+        background-color: #f8f9fa;
+    }
+
+    .content-section.bg-primary {
+        background-color: #007bff;
+        color: white;
+    }
+
+    .content-section.bg-secondary {
+        background-color: #6c757d;
+        color: white;
+    }
+
+.card-body {
+    position: relative;
+}
+.card-body h5{
+    color: red;
+}
+
+.card-body img{
+    width: 100%;
+}
+
+.card-header button {
+    color: black;
+    border: none;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 600;
+}
+.close-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: none; /* Nasconde il pulsante di chiusura di default */
+}
+video {
+    background-color: #000000bf;
+}
+
+footer {
+    margin-top: 2rem;
+    padding: 1rem 0;
+    background-color: #f8f9fa;
+    box-shadow: black 0 5px 20px;
+    height: 65px;
+    font-size: 15px;
+}
+
+@media (min-width: 1024px) {
+    .card-body img {
+        width: 30%;
+        position: relative;
+        left: 33%;
+    }
+
+    .parallax-mini h2{
+        font-size: 65px;
+    }
+    .parallax-mini h1 {
+        font-size: 65px;
+    }
+    .parallax-mini p {
+        font-size: 30px;
+    }
+    #section1 h1 {
+        font-size: 65px;
+    }
+
+    #section1 p {
+        font-size: 30px;
+    }
+    .parallax-mini .content {
+        margin-left: 80px!important;
+        margin-right: 80px!important;
+    }
+    .home h2 {
+        font-size: 65px;
+    }
+    .home h1 {
+        font-size: 65px;
+    }
+    .home p {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+
+    .content-section {
+        padding: 2rem 0;
+    }
+
+    .navbar-brand {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .navbar-nav .nav-item .nav-link {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        border-bottom: 1px solid lightgrey;
+        font-weight: 700;
+    }
+}
+@media (max-width: 400px) {
+    .navbar-brand {
+        font-weight: bold;
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width:990px) and (max-width:1244px) {
+    .navbar-brand {
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+    #navbarNav a {
+        font-size: 13px;
+    }
+}​
