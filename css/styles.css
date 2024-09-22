@@ -185,6 +185,9 @@ footer {
         border-bottom: 1px solid lightgrey;
         font-weight: 700;
     }
+    div#section7 h2 {
+        font-size: 27px;
+    }
 }
 @media (max-width: 400px) {
     .navbar-brand {
